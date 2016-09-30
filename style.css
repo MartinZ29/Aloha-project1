@@ -1,0 +1,33 @@
+@font-face {
+    font-family: ’playfairdisplay‘;
+    src: url('playfair-display/')
+}
+header {
+    font-size: 100px;
+    padding-left: 15%
+}
+
+.build {
+    font-size: 50px;
+    margin-top: 30px;
+    padding-left: 15%
+}
+
+.input {
+    padding-top: 100px;
+    padding-left: 20%
+}
+p {
+    font-size: 40px
+}
+
+button {
+    margin-top: 60px;
+    background-color: blue;
+    color: #fff;
+
+}
+
+textarea {
+    height: 30px;
+}
