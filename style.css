@@ -78,21 +78,26 @@ html {
     }
 }
 
-
-
-
-
-body input {
+body {
     font-family:'ralewaylight', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
+    color: #2d2d2d;
+    line-height: 2;
 }
 
-h2, h3 {
-    font-family: 'playfair-display', sans-serif;
+h1, h2, h3, h4, h5 {
+    font-family: 'playfairdisplay', serif;
     font-style: normal;
     font-weight: normal;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
 }
 
 
