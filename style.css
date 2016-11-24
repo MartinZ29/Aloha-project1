@@ -171,10 +171,14 @@ img {
 
 .newcollection {
     font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .spring {
     font-size:4rem;
+    font-family: 'playfairdisplay', serif;
+    font-weight: normal;
+    text-transform: none;
 }
 
 
