@@ -192,17 +192,15 @@ img {
 
 .styles-text {
     width: 720px;
-    margin: 0 auto;
-    
 }
 
-.HCS {
-    margin-bottom: 1.5rem;
+h2 span {
+    font-style: normal;
+    font-weight: bold;
 }
 
 .styles p {
-    font-size: 1.5rem;
-    line-height: 2;
+    font-size: 1.15rem;
 }
 
 
