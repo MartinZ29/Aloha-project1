@@ -67,6 +67,28 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('assets/fonts/raleway-medium-webfont.eot');
+    src: url('assets/fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/raleway-medium-webfont.woff') format('woff'),
+         url('assets/fonts/raleway-medium-webfont.ttf') format('truetype'),
+         url('assets/fonts/raleway-medium-webfont.svg#ralewaylight') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('assets/fonts/raleway-mediumitalic-webfont.eot');
+    src: url('assets/fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/raleway-mediumitalic-webfont.woff') format('woff'),
+         url('assets/fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
+         url('assets/fonts/raleway-mediumitalic-webfont.svg#ralewaylight') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
 /*   all page settings here !!!!!*/
 
 html {
