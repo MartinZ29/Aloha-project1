@@ -112,6 +112,10 @@ h3 {
     margin-bottom: 1rem;
 }
 
+p {
+    font-family:'ralewaylight', sans-serif;
+}
+
 img {
     height: auto;
     max-width: 100%;
@@ -119,10 +123,20 @@ img {
 
 /*   for all   -------------------------------------------- */
 .container {
-    max-width: 1240px;
+    max-width: 400px;
     width: 100%;
     margin: 0 auto;
     padding: 0 2%;
+}
+@media screen and (min-width: 600px) {
+    .container {
+        max-width:600px;
+    }
+}
+@media screen and (min-width: 1240px) {
+    .container {
+        max-width: 1240px;
+    }
 }
 
 .clearfix:before, .clearfix:after {
@@ -218,10 +232,25 @@ h2 span {
 }
 
 .list li{
-    float: left;
-    width: 25%;
+    width: 100%;
     text-align: center;
     padding: 0 2rem;
+}
+@media screen and (min-width:600px) {
+    .list li{
+        float: left;
+        width: 50%;
+        text-align: center;
+        padding: 0 2rem;
+    }
+}
+@media screen and (min-width:1240px) {
+    .list li{
+        float: left;
+        width: 25%;
+        text-align: center;
+        padding: 0 2rem;
+    }
 }
 
 .cloth-type {
