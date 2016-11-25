@@ -284,9 +284,8 @@ h2 span {
     font-weight: bold;
 }
 /* sign-up    ----------------------------------------------*/
-
 .updates {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100% ), url(assets/images/wave-bkgd.jpg) no-repeat center bottom;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100% ), url('assets/images/wave-bkgd.jpg') no-repeat center bottom;
     color: white;
     padding: 4rem 0;
     margin-bottom: 8px;
@@ -335,7 +334,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #b64036;
 }
-
 
 /* footer ----------------------------------*/
 .contact {
