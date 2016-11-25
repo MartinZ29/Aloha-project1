@@ -14,4 +14,6 @@ The Aloha is the first project I've done when I started to learn front end devel
 
 This project is basic about html/html5 and css/css3.
 
-Add mobile first view to the project. Breakpoint: mobile first, min-width 600px for tablet, min-width 1240px for desktop.
+Change the project to mobile first view. Breakpoint: min-width 600px for tablet, min-width 1240px for desktop.
+
+Welcome for all advices.
