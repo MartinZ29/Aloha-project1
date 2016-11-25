@@ -203,8 +203,6 @@ h2 span {
     font-size: 1.15rem;
 }
 
-
-
 /* product list   ------------------------------------------*/
 
 .products {
@@ -213,33 +211,31 @@ h2 span {
 
 .product-title {
     text-align: center;
-    margin-bottom: 3rem;
-    margin-top: 2rem;
 }
 
 .list {
-    width: 100%;
-    
+    margin-top: 3rem;  
 }
 
 .list li{
     float: left;
-    width: 24%;
+    width: 25%;
     text-align: center;
-    padding: 0 0rem;
+    padding: 0 2rem;
 }
 
 .cloth-type {
+    font-size: 0.75rem;
+    font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
+    color: #969696;
 }
 
 .price {
     color: #969696;
-    margin-top: 1rem;
+    font-weight: bold;
 }
-
-
 /* sign-up    ----------------------------------------------*/
 
 .updates {
