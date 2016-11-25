@@ -186,7 +186,7 @@ img {
 
 /* banner ----------------------------------------------------*/
 .banner {
-    background:linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba( 0,0,0,0.25) 100%), url(assets/images/banner-girl.png) no-repeat center 60px, url(assets/images/flower-bkgd.jpg) repeat-x center top;
+    background:linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba( 0,0,0,0.25) 100%), url('assets/images/banner-girl.png') no-repeat center 60px, url('assets/images/flower-bkgd.jpg') repeat-x center top;
     height: 550px;
     position: relative;
     background-size: cover, 250px 615px, contain;
