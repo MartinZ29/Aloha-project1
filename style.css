@@ -104,7 +104,7 @@ html {
     outline: none;
 }
 
-body {
+body, input {
     font-family:'ralewaylight', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -325,9 +325,6 @@ input[type="email"] {
     padding: 0.5rem 1.75rem;
     border-radius:25px;
     border: 0;
-    color: #2d2d2d;
-    font-family: 'ralewaylight', sans-serif;
-    font-size: 1rem;
 }
 
 input[type="submit"] {
@@ -339,9 +336,7 @@ input[type="submit"] {
     top: 0.25rem;
     padding: 0.25rem 1.5rem;
     border: 0;
-    font-family: 'ralewaylight', sans-serif;
     font-weight: bold;
-    font-size: 1rem;
 }
 
 input[type="submit"]:hover {
