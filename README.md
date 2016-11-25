@@ -1,5 +1,7 @@
 # Project-1-a Aloha
 
+![image](https://github.com/MartinZ29/aloha-project1/blob/master/assets/images/screenshot.png)
+
 #Technology used
 
 HTML/HTML5
