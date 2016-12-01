@@ -9,7 +9,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'playfairdisplay';
     src: url('assets/fonts/playfairdisplay-italic-webfont.eot');
@@ -20,7 +19,6 @@
     font-weight: normal;
     font-style: italic;
 }
-
 @font-face {
     font-family: 'playfairdisplay';
     src: url('assets/fonts/playfairdisplay-bold-webfont.eot');
@@ -31,7 +29,6 @@
     font-weight: bold;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'playfairdisplay';
     src: url('assets/fonts/playfairdisplay-bolditalic-webfont.eot');
@@ -42,7 +39,6 @@
     font-weight: bold;
     font-style: italic;
 }
-
 @font-face {
     font-family: 'ralewaylight';
     src: url('assets/fonts/raleway-light-webfont.eot');
@@ -53,7 +49,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'ralewaylight';
     src: url('assets/fonts/raleway-lightitalic-webfont.eot');
@@ -64,7 +59,6 @@
     font-weight: normal;
     font-style: italic;
 }
-
 @font-face {
     font-family: 'ralewaylight';
     src: url('assets/fonts/raleway-medium-webfont.eot');
@@ -75,7 +69,6 @@
     font-weight: bold;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'ralewaylight';
     src: url('assets/fonts/raleway-mediumitalic-webfont.eot');
@@ -86,7 +79,6 @@
     font-weight: bold;
     font-style: italic;
 }
-
 /*   all page settings here !!!!!*/
 
 html {
@@ -97,13 +89,11 @@ html {
         font-size: 16px;
     }
 }
-
 /*   this * is important here!!!!! * is for all elements !!!!!!!!   */
 * {
     box-sizing: border-box;
     outline: none;
 }
-
 body, input {
     font-family:'ralewaylight', sans-serif;
     font-style: normal;
@@ -112,35 +102,29 @@ body, input {
     color: #2d2d2d;
     line-height: 2;
 }
-
 h1, h2, h3, h4, h5 {
     font-family: 'playfairdisplay', serif;
     font-style: normal;
     font-weight: normal;
     line-height: 1;
 }
-
 h2 {
     font-size: 2.4rem;
     font-style: italic;
     margin-bottom: 1.5rem;
 }
-
 h3 {
     font-size: 1.5rem;
     color: #e2574c;
     margin-bottom: 1rem;
 }
-
 p {
     font-family:'ralewaylight', sans-serif;
 }
-
 img {
     height: auto;
     max-width: 100%;
 }
-
 /*   for all   -------------------------------------------- */
 .container {
     max-width: 400px;
@@ -158,30 +142,24 @@ img {
         max-width: 1240px;
     }
 }
-
 .clearfix:before, .clearfix:after {
     content: '';
     clear: both;
     display: table;
 }
-
 /* header       -----------------------------------------------*/
-
 .header {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
 }
-
 .logo {
     width: 160px;
     float: left
 }
-
 .cart {
     float: right;
     width: 60px;
 }
-
 /* banner ----------------------------------------------------*/
 .banner {
     background:linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba( 0,0,0,0.25) 100%), url('assets/images/banner-girl.png') no-repeat center 60px, url('assets/images/flower-bkgd.jpg') repeat-x center top;
@@ -190,7 +168,6 @@ img {
     background-size: cover, 150px 369px, cover;
     padding: 4rem 0;
 }
-
 .banner-text {
     font-weight: bold;
     text-transform: uppercase;
@@ -202,13 +179,11 @@ img {
     line-height: 1;
     transform: translate(-50%,-50%);    
 }
-
 .newcollection {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     font-family: 'ralewaylight', sans-serif;
 }
-
 .spring {
     font-size:2.5rem;
     font-family: 'playfairdisplay', serif;
@@ -229,40 +204,32 @@ img {
         font-size: 4rem;
     }
 }
-
 /* styles ----------------------------------------------*/
 .styles {
     text-align: center;
     border-bottom: 1px solid #d7d7d7;
     padding: 4rem 0;
 }
-
 .styles-text {
     width: 720px;
 }
-
 h2 span {
     font-style: normal;
     font-weight: bold;
 }
-
 .styles p {
     font-size: 1.15rem;
 }
-
 /* product list   ------------------------------------------*/
 .products {
     padding: 4rem 0;
 }
-
 .product-title {
     text-align: center;
 }
-
 .list {
     margin-top: 3rem;  
 }
-
 .list li{
     width: 100%;
     text-align: center;
@@ -284,7 +251,6 @@ h2 span {
         padding: 0 2rem;
     }
 }
-
 .cloth-type {
     font-size: 0.75rem;
     font-weight: bold;
@@ -292,7 +258,6 @@ h2 span {
     margin-bottom: 0.5rem;
     color: #969696;
 }
-
 .price {
     color: #969696;
     font-weight: bold;
@@ -304,29 +269,24 @@ h2 span {
     padding: 4rem 0;
     margin-bottom: 8px;
 }
-
 .sign-up {
     text-align: center;
 }
-
 .sign-up p{
     font-size: 1.2rem;
     line-height: 2;
 }
-
 .sign-up-email {
     margin: 2rem auto 0;
     position: relative;
     width: 90%;
 }
-
 input[type="email"] {
     width: 100%;
     padding: 0.5rem 1.75rem;
     border-radius:25px;
     border: 0;
 }
-
 input[type="submit"] {
     border-radius: 25px;
     background-color: #e2574c;
@@ -338,7 +298,6 @@ input[type="submit"] {
     border: 0;
     font-weight: bold;
 }
-
 input[type="submit"]:hover {
     background-color: #b64036;
 }
@@ -355,7 +314,6 @@ input[type="submit"]:hover {
         width: 720px;
     }
 }
-
 /* footer ----------------------------------*/
 .contact {
     background-color: #242424;
@@ -363,52 +321,41 @@ input[type="submit"]:hover {
     padding: 4rem 0;
     text-align: center;
 }
-
 .detail {
     font-size: 1rem;
     line-height: 1.5;
 }
-
 .detail p {
     font-family: 'playfairdisplay', serif;
 }
-
 .copyright, .tel {
     margin-bottom: 1rem;
 }
-
 .contact a {
     color: white;
 }
-
 .contact a:hover {
     color: #e2574c;
 }
-
 .address {
     color: #969696;
 }
-
 .links {
     margin-top: 2rem;
     font-family: 'ralewaylight', sans-serif;
 }
-
 .links a{
     text-decoration: none;
 }
-
 .links i {
     min-width: 25px;
 }
-
 .links li {
     display: inline-block
 }
 .links span {
     display: none;
 }
-
 @media screen and (min-width: 600px) {
     .contact {
         text-align: left;
